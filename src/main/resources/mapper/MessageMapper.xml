@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yizhe.sportsReserveSys.mapper.MessageMapper">
+
+    <resultMap id="BaseResultMap" type="com.yizhe.sportsReserveSys.model.entity.Message">
+            <id property="message_id" column="message_id" jdbcType="INTEGER"/>
+            <result property="user_id" column="user_id" jdbcType="BIGINT"/>
+            <result property="content" column="content" jdbcType="VARCHAR"/>
+            <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        message_id,user_id,content,
+        createTime
+    </sql>
+</mapper>

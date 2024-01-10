@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b12cd69e-0e21-4bf7-882d-647656138818" name="aliyun">
+        <fileTransfer rootFolder="/var/tmp/springboot/jars" accessType="SFTP" host="59.110.52.247" port="22" sshConfigId="a36cae3f-97ed-4602-ba96-a0f8f6d0dd00" sshConfig="root@59.110.52.247:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

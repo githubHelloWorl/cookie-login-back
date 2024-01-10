@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yizhe.sportsReserveSys.mapper.MessageReplyMapper">
+
+    <resultMap id="BaseResultMap" type="com.yizhe.sportsReserveSys.model.entity.MessageReply">
+            <id property="message_reply_id" column="message_reply_id" jdbcType="INTEGER"/>
+            <result property="user_id" column="user_id" jdbcType="BIGINT"/>
+            <result property="message_id" column="message_id" jdbcType="INTEGER"/>
+            <result property="content_reply" column="content_reply" jdbcType="VARCHAR"/>
+            <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        message_reply_id,user_id,message_id,
+        content_reply,createTime
+    </sql>
+</mapper>

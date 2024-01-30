@@ -21,10 +21,9 @@ create table user
 
 create index idx_unionId on user (unionId);
 
-select *
-from user;
-insert into user(id, userAccount, userPassword)
-values (1, 'admin', '12345678');
+select * from user;
+insert into user(id, userAccount, userPassword) values (1, 'admin', '6b97671e76feb12e4716154eed577066');
+
 
 drop table if exists venue;
 create table venue
@@ -38,13 +37,10 @@ create table venue
     fee         double                             not null comment '场地费用',
     create_time datetime default CURRENT_TIMESTAMP not null comment '创建时间',
     update_time datetime default CURRENT_TIMESTAMP not null on update CURRENT_TIMESTAMP comment '更新时间'
-)
-    comment '体育场馆信息表';
+) comment '体育场馆信息表';
 
 -- auto-generated definition
-select *
-from venue;
-
+select * from venue;
 
 drop table if exists reservation;
 create table reservation
@@ -73,6 +69,9 @@ create index user_id
 create index venue_id
     on reservation (venue_id);
 
+select * from reservation;
+delete from reservation where user_id = 7;
+
 
 -- auto-generated definition
 -- auto-generated definition
@@ -93,8 +92,7 @@ create index user_id
     on message (user_id);
 
 
-select *
-from message;
+select * from message;
 
 -- auto-generated definition
 create table message_reply
@@ -114,4 +112,7 @@ create table message_reply
 
 create index idx_user_id
     on message_reply (user_id);
+
+select * from message_reply;
+
 

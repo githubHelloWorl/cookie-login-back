@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c34be1d-e3ec-49b9-9e68-2c55b479f2e1" name="Changes" comment="改进版1" />
+    <list default="true" id="6c34be1d-e3ec-49b9-9e68-2c55b479f2e1" name="Changes" comment="改进版1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/create_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/create_table.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +80,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "d7bd379ca0597e2833ecdc8b27ea32c6",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -188,7 +192,8 @@
       <workItem from="1704375250802" duration="1968000" />
       <workItem from="1704412561395" duration="38886000" />
       <workItem from="1704602520994" duration="21237000" />
-      <workItem from="1704802326915" duration="22591000" />
+      <workItem from="1704802326915" duration="35154000" />
+      <workItem from="1706601177851" duration="1032000" />
     </task>
     <task id="LOCAL-00001" summary="改进版1">
       <option name="closed" value="true" />
